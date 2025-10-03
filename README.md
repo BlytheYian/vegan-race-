@@ -9,7 +9,7 @@
 mysql -u root -p
 ```
 database: veganrace
-<br>
+<br><br>
 ## 初始化
 
 進入xampp的shell, 確保你在專案目錄下:
@@ -19,7 +19,7 @@ php init_db.php
 php phinx.phar migrate   
 php phinx.phar seed:run
 ```
-
+<br><br>
 ## 關於sql同步
 
 
