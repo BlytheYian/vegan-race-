@@ -1,5 +1,5 @@
-# 菜, 
-# 就多練
+菜, 
+就多練
 
 有說明寫在這或外連
 
@@ -54,11 +54,11 @@ php phinx.phar seed:run
 "C:\xampp\mysql\bin\mysqldump.exe" -u root -p your_database_name > backup.sql
 ```
 
-'''
--u root → MySQL 帳號
--p → 提示輸入密碼
-your_database_name → 要備份的 DB
-\> backup.sql → 匯出檔名
-'''
+
+> -u root → MySQL 帳號
+>　-p → 提示輸入密碼
+> your_database_name → 要備份的 DB
+> \> backup.sql → 匯出檔名
+
 
 *用這方法小心覆蓋掉檔案*
