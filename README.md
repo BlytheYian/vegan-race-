@@ -3,10 +3,12 @@
 
 有說明寫在這或外連
 -----------------------------------------------------------------------
+```bash
 mysql -u root -p
+```
 database: veganrace
 
-#初始化
+# 初始化
 進入xampp的shell, 確保你在專案目錄下:
 ```bash
 cd htdocs\vegan-race-
@@ -15,9 +17,9 @@ php phinx.phar migrate
 php phinx.phar seed:run
 ```
 
-#關於sql同步
+# 關於sql同步
 
-###如何使用phinx同步sql:
+### 如何使用phinx同步sql:
 
 進入xampp的shell, 確保你在專案目錄下
 ```bash
@@ -39,7 +41,7 @@ php phinx.phar seed:run
 這方法保留了版本紀錄應可以回檔
 
 
-###當然你也可以用sql dump
+### 當然你也可以用sql dump
 最簡單的方法是進入myphpadmin獲得.sql檔案, 有UI可操作
 
 但如果你進不去(像我), 這是指令:
