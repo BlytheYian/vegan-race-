@@ -2,13 +2,16 @@
 就多練
 
 有說明寫在這或外連
+
 -----------------------------------------------------------------------
+
 ```bash
 mysql -u root -p
 ```
 database: veganrace
 
 # 初始化
+
 進入xampp的shell, 確保你在專案目錄下:
 ```bash
 cd htdocs\vegan-race-
@@ -18,6 +21,7 @@ php phinx.phar seed:run
 ```
 
 # 關於sql同步
+
 
 ### 如何使用phinx同步sql:
 
@@ -42,6 +46,7 @@ php phinx.phar seed:run
 
 
 ### 當然你也可以用sql dump
+
 最簡單的方法是進入myphpadmin獲得.sql檔案, 有UI可操作
 
 但如果你進不去(像我), 這是指令:
@@ -53,7 +58,7 @@ php phinx.phar seed:run
 -u root → MySQL 帳號
 -p → 提示輸入密碼
 your_database_name → 要備份的 DB
-> backup.sql → 匯出檔名
+\> backup.sql → 匯出檔名
 '''
 
 *用這方法小心覆蓋掉檔案*
