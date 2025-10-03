@@ -55,10 +55,10 @@ php phinx.phar seed:run
 ```
 
 
-> -u root → MySQL 帳號
->　-p → 提示輸入密碼
-> your_database_name → 要備份的 DB
-> \> backup.sql → 匯出檔名
+> -u root → MySQL 帳號 <br>
+>　-p → 提示輸入密碼 <br>
+> your_database_name → 要備份的 DB <br>
+> \> backup.sql → 匯出檔名 <br>
 
 
 *用這方法小心覆蓋掉檔案*
