@@ -9,7 +9,7 @@
 mysql -u root -p
 ```
 database: veganrace
-
+<br>
 ## 初始化
 
 進入xampp的shell, 確保你在專案目錄下:
@@ -46,9 +46,9 @@ php phinx.phar seed:run
  <br>
  
 這方法保留了版本紀錄應可以回檔
- <br>
+ 
 當然你也可以用sql dump
-
+<br>
 最簡單的方法是進入myphpadmin獲得.sql檔案, 有UI可操作
 
 但如果你進不去(像我), 這是指令:
